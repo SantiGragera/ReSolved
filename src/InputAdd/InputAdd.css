@@ -1,0 +1,139 @@
+.todoinputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.agregado{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 35px;
+  position: relative;
+  display: inline-block;
+}
+
+.btnadd{
+  padding-bottom: 15px;
+}
+
+.btnadd button{
+  border: none;
+  background-color: #14406B;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inputsfacha{
+  width: 170px;
+  height: 25px;
+  border: 2px solid #14406B;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+.inputsfacha::placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inputsfacha[type="number"]::-webkit-inner-spin-button,
+.inputsfacha[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0; 
+}
+
+.containerni{
+  display: flex;
+  width: 500px;
+  height: 30px;
+  padding-bottom: 15px;
+  gap: 14px;
+}
+
+.newitems{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #14406B;
+  width: 500px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.btndel{
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  background-color: #14406B;
+  cursor: pointer;
+}
+
+.incomplete {
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}
+select option{
+  background-color: #14406B;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width:550px) {
+  .inputsfacha {
+    width: 120px;
+    height: 25px;
+  }
+  .containerni{
+    display: flex;
+    width: 380px;
+    height: 30px;
+    padding-bottom: 10px;
+    gap: 14px;
+  }
+}
+
+@media (max-width:400px) {
+  .inputsfacha {
+    width: 80px;
+    height: 25px;
+  }
+  .containerni{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    padding-bottom: 30px;
+    align-items: center;
+    gap: 5px;
+  }
+  .newitems{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

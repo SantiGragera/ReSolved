@@ -1,0 +1,8 @@
+.todoIng{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    padding-top: 20px;
+}

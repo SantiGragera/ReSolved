@@ -1,0 +1,48 @@
+.mainGastos{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 20px;
+    height: 500px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.fechas{
+    color: #14406B;
+    font-size: 30px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.col3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+.boxescat{
+    background-color: #14406B;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: white;
+    width: 250px;
+    height: 30px;
+}
+
+@media (max-width:920px) {
+    .mainGastos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
