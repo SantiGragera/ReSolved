@@ -1,8 +1,3 @@
-# React + Vite
+Re-Solved
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Es una aplicacion de control de gastos e ingresos en la cual podras ingresar un titulo, gasto y categoria las cuales seran presentadas en un grafico, de manera que podras tener un mejor control y manejo de tu dinero. Esta misma utiliza Local Storage, por lo tanto, podras mantener los datos en tu navegador. Tambien tiene un diseño responsive por lo que podras usarla en cualquier dispositivo.
